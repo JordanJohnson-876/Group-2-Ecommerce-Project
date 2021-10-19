@@ -1,0 +1,399 @@
+.box1 {
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(255, 255, 255);
+    width: 1280px;
+    height: 150px;
+}
+
+.logo {
+    display: inline-block;
+    margin: 0 555px; 
+    width: 200px;
+    height: 200px;
+}
+
+
+.navbar {
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #333;
+    width: 1280px;
+    height: auto;
+    color:#ffffffda;
+    position: relative;
+}
+
+a:hover {
+    background-color: #000000;  
+}
+
+.box2{
+    margin: 0;
+    padding: 0;
+    width: 1280px;
+	height: auto;
+    background-color: white;
+    font-family: 'Questrial', sans-serif;
+}
+
+.box3{
+    margin: 0;
+    padding: 0;
+    width: 1280px;
+	height: auto;
+    background-color: white;
+    font-family: 'Questrial', sans-serif;
+}
+
+/*
+img {
+    border: 282px 433px;
+    max-width: 255px; 
+    max-height: 157.78px;
+}
+*/
+
+html, body {
+  display: grid;
+  place-items: center;
+  
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    width: 1280px;
+	  height: auto;
+    font-family: 'Questrial', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: rgba(0, 0, 0, 0);
+}    
+
+
+h1, h2, h3 {
+    text-align:center;
+    color: #000000;
+    font-weight: 700;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+header {
+    font-size:50px ;
+}
+
+h1 {
+font-size:24px;
+}
+
+h2 {
+font-size: 20px;
+}
+
+h3 {
+    font-size: 16px;
+}
+
+
+.row {
+    display:flex;
+    justify-content:center;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Questrial&display=swap');
+
+ul {
+  text-align: center;
+}
+
+/*....................... product page..................................*/
+/*
+img {
+    border: 282px 433px;
+    max-width: 255px; 
+    max-height: 157.78px;
+}
+*/
+.options {
+    
+    text-align: left;
+    width: 340px;
+    height: 450px;
+    /* overflow-y:auto; */
+}
+
+.options a {
+    background-color: #eeeeee;
+    color: black;
+    display: block;
+    padding: 8px;
+    text-decoration: none;
+}
+.options a:hover {
+    background-color: #eeeeee;
+}
+.options a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.add-cart {
+  cursor:pointer;
+  text-align: center;
+  color:rgb(22, 22, 22);
+/*
+  background-color:#38b6c785;
+*/
+  padding:10px;
+  width:90%;
+  margin-left:auto;
+  margin-right:auto;
+  font-size:20px;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+.add-cart{
+    background: linear-gradient(to right,  #00acee 0%, #1abeff 100%);
+  }
+
+.add-cart:hover{
+    background: linear-gradient(to left,  #00acee 0%, #1abeff 100%);
+  }
+
+
+.frame {
+    width: 282px;
+    height: 433px;
+    padding: 8px;
+    float: left;
+}
+
+
+/*....................................................................... */
+
+li {
+    display: inline-block;
+}
+
+li a {
+    display: block;
+    color: #e5eeff;
+    text-align: center;
+    margin-top: 0;
+    padding: 24px;
+    text-decoration: none;
+   }
+
+
+a:active {
+    display: block;
+    color: #e5eeff;
+    text-align: center;
+    margin-top: 0;
+    padding: 24px;
+    text-decoration: none;
+}
+
+/*
+.icons {
+    display: block;  
+    margin: auto;
+    width: 16px;
+    background-color: #e20c0c;
+    padding: 10px;
+    color: #e5eeff;
+    font-size:16px;
+}
+*/
+
+/* Sign up page css*/
+
+.form-container{
+    width: 960px;
+    background-color: #ffffff;
+    margin-top: 48px;
+    margin-right: auto;
+    margin-bottom: 48px;
+    margin-left: auto;
+    padding-top: 36px;
+    padding-right: 36px;
+    padding-bottom: 36px;
+    padding-left: 36px;
+}
+
+
+input[type="text"]{
+    display: block;
+    margin-bottom: 24px;
+}
+
+input[type="password"]{
+    display: block;
+    margin-bottom: 24px;
+}
+
+select{
+    display: block;
+    margin-bottom: 24px;
+}
+
+textarea{
+    width: 100%;
+}
+
+fieldset{
+    margin-bottom: 24px;
+}
+
+
+  /* .......................................Contact us page ......................*/
+* {
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+	text-rendering:optimizeLegibility;
+}
+
+.contact-us {
+	max-width: 400px;
+	width: 100%;
+	margin: 0 auto;
+	position: relative;
+    
+}
+
+#contact input[type="text"], #contact input[type="email"], #contact input[type="tel"], #contact input[type="url"], #contact textarea, #contact button[type="submit"] { font:400 12px/16px "Open Sans", Helvetica, Arial, sans-serif; }
+
+#contact {
+	background: #F9F9F9;
+	padding: 25px;
+	margin: 50px 0;
+}
+
+#contact h3 {
+	color: #000000;
+	display: block;
+	font-size: 30px;
+	font-weight: 600;
+}
+
+#contact h4 {
+	margin: 5px 0 15px;
+	display: block;
+	font-size: 13px;
+}
+
+.contact-us fieldset {
+	border: medium none !important;
+	margin: 0 0 10px;
+	min-width: 100%;
+	padding: 0;
+	width: 100%;
+    
+}
+
+#contact input[type="text"], #contact input[type="email"], #contact input[type="tel"], #contact input[type="url"], #contact textarea {
+	width:100%;
+	border:1px solid #CCC;
+	background:#FFF;
+	margin:0 0 5px;
+	padding:10px;
+}
+
+#contact input[type="text"]:hover, #contact input[type="email"]:hover, #contact input[type="tel"]:hover, #contact input[type="url"]:hover, #contact textarea:hover {
+	border:1px solid #AAA;
+}
+
+#contact textarea {
+	height:100px;
+	max-width:100%;
+  	resize:none;
+      border-radius: 5px;
+}
+
+#contact button[type="submit"] {
+	cursor:pointer;
+	width:100%;
+	border:none;
+	background:#a13a3a;
+	color:#FFF;
+	margin:0 0 5px;
+	padding:10px;
+	font-size:15px;
+    border-radius: 5px;
+}
+
+#contact button[type="submit"]:active { 
+	box-shadow:inset 0 1px 3px rgba(0, 0, 0, 0.5); 
+}
+
+#contact input:focus, #contact textarea:focus {
+	outline:0;
+	border:1px solid #999;
+}
+
+
+
+
+/* footer navbar */
+.foot-box {
+    width:1280px ;
+}
+.social-icons {
+	text-align:center;
+    margin: 25px 0 0 0;  
+	background-color: #333;
+}
+
+.social-icons li {
+    margin:5px 10px 0 10px;
+}
+
+.smicons:hover {
+	color:#6d76f1; 
+}
+
+.smicons {
+	color: #FFF;
+	border: #333;
+}
+.copyright { 
+	text-align: center;
+	font-size: 14px;
+	color: #FFF;
+	background-color: #333;
+}
+
+.privacy h1 {
+    text-align: left;
+    width: 1280px;
+}
+
+.privacy h2 {
+    text-align: left;
+    width: 1280px;
+}
+
+.privacy h3 {
+    text-align: left;
+    width: 1280px;
+}
+.privacy p{
+    font-size:17px;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+.privacy {
+    background-color: white;
+    border-radius: 24px;
+    padding-top: 48px;
+    padding-right: 48px;
+    padding-bottom: 48px;
+    padding-left: 48px;
+    width: 1280px;   
+    margin: 0 auto; 
+    font-family: 'Noto Sans', sans-serif;
+}
+
