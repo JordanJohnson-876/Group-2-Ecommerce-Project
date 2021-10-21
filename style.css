@@ -25,8 +25,11 @@
 }
 
 a:hover {
-    background-color: #000000;  
+    background-color: #000000;
+    border-radius: 15px;  
 }
+
+.search {border-radius:13px; width:250px; height:35px;}
 
 .box2{
     margin: 0;
