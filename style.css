@@ -27,7 +27,7 @@
 }
 
 a:hover {
-    background-color: #000000;
+    background-color: #31bac4;
     border-radius: 15px;  
 }
 
@@ -141,7 +141,7 @@ img {
     background-color: #eeeeee;
 }
 .options a.active {
-    background-color: #4CAF50;
+    background-color: #ffffff;
     color: white;
 }
 
@@ -264,7 +264,7 @@ fieldset{
 }
 
 .contact-us {
-	max-width: 400px;
+	max-width: 500px;
 	width: 100%;
 	margin: 0 auto;
 	position: relative;
@@ -314,10 +314,10 @@ fieldset{
 }
 
 #contact textarea {
-	height:100px;
+	height:200px;
 	max-width:100%;
-  	resize:none;
-      border-radius: 5px;
+  resize:none;
+  border-radius: 5px;
 }
 
 #contact button[type="submit"] {
@@ -329,7 +329,7 @@ fieldset{
 	margin:0 0 5px;
 	padding:10px;
 	font-size:15px;
-    border-radius: 5px;
+  border-radius: 5px;
 }
 
 #contact button[type="submit"]:active { 
